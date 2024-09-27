@@ -2,13 +2,15 @@
   "name": "delcorp",
   "version": "1.0.0",
   "description": "Site-Pessoal",
-  "main": "index.html",
+  "main": "projetos/api-com-express/src/servidor.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Col-13",
   "license": "ISC",
   "dependencies": {
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "nodemon": "^3.1.7"
   }
 }
