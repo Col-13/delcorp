@@ -1,0 +1,1 @@
+*Esse diretorio vai começar com o projeto do site pessoal mas dentro dele vaiter outros projetos todos vinculados por isso, pense nele como um super-projeto.
