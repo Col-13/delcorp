@@ -2,10 +2,13 @@
   "name": "delcorp",
   "version": "1.0.0",
   "description": "Site-Pessoal",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Col-13",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2"
+  }
 }
