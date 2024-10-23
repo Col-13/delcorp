@@ -1,8 +1,9 @@
 # Página do Portfólio Pessoal com SEO e Estilos com CSS Externo
 Decrição do Projeto: O projeto consiste em criar uma página em HTML. A página será uma vitrine para apresentar habilidades, projetos e informações pessoais de um estudante, especialmente como cartão de visitas digital. A ideia é criar uma página simples e atraente, utilizando apenas HTML.
 
-**Descrição da Melhoria: Adicionamos práticas de SEO à página do portfólio pessoal para melhorar sua visibilidade nos motores de busca. Isso inclui otimização de elementos-chave como Título, meta descrição, cabeçalhos e URLs. com essas mudanças, a página não apenas apresenta as habilidades e projetos do usuário, mas também se torna fácil de ser encontrada por potenciais interessados ou específicos em seu trabalho.
-**Descrição adição CSS: Adicionamos um arquivo CSS externo para estilizae o portfólio pessoal, separando a estrutura (HTML) da apresentação (CSS). Isso melhorou a organização e a manutenibilidade do código, permitindo que o design da página seja facilmente alterado ou ajustado sem modificar o conteúdo HTML. O CSS foi usado para definir layout, núcleos, fontes e espaçamento, tornando a página mais atraente e profissional.
+** Descrição da Melhoria: Adicionamos práticas de SEO à página do portfólio pessoal para melhorar sua visibilidade nos motores de busca. Isso inclui otimização de elementos-chave como Título, meta descrição, cabeçalhos e URLs. com essas mudanças, a página não apenas apresenta as habilidades e projetos do usuário, mas também se torna fácil de ser encontrada por potenciais interessados ou específicos em seu trabalho.
+** Descrição adição CSS: Adicionamos um arquivo CSS externo para estilizae o portfólio pessoal, separando a estrutura (HTML) da apresentação (CSS). Isso melhorou a organização e a manutenibilidade do código, permitindo que o design da página seja facilmente alterado ou ajustado sem modificar o conteúdo HTML. O CSS foi usado para definir layout, núcleos, fontes e espaçamento, tornando a página mais atraente e profissional.
+** Melhoria no Layout usando CSS Flexbox e CSS Grid no projeto. Vamos modificar a estrutura da página para ter um layout mais organizado e responsivo.
 ### Estrutura da Página
 - 1 Cabeçalho(Header):
     - Nome completo do usuário.
@@ -40,6 +41,18 @@ Decrição do Projeto: O projeto consiste em criar uma página em HTML. A págin
 4. imagens e Links Melhorados:
     - Adicionamos bordas e arredondadas e sombras às imagens.
     - Links receberam um efeito de hover, destacando-os quando o usuário passa o mouse.
+#### Alterações no Layout
+- 1 Estrutura Geral do Layout:
+    - Utilizamos o Flexbox para criar um layout básico com um cabeçalho, conteúdo principal e rodapé. O conteúdo principal será dividido em duas colunas usando Grid Layout.
+        - Cabeçalho: Ocupa 100% da largura da página e é centralizado.
+        - Conteúdo Principal: Dividido em duas colunas (menu lateral e conteúdo).
+        - Rodapé: Fica fixido na parte inferior da página e ocupa 100% da largura.
+- 2 Flexbox no Contêiner Principal:
+    - Vamos aplicar o flexbox no corpo da página para alinhar e distribuir os elementos principais (cabeçalho, conteúdo e rodapé) verticalmente.
+- 3 Grid no Conteúdo Principal:
+    - O conteúdo principal será divido em duas colunas usando Grid Layout: aprimeira para o menu de navegação (lado esquerdo) e a segunda para o conteúdo (lado direito).
+- 4 Responsabilidade:
+    - Usaremos consultas de Mídia para garantir que o layout se adapte a diferentes tamanhos de telas. Em telas pequenas, o menu lateral fica em cima do conteúdo, em vez de ao lado dele.
 ## Ficha Técnica do Projeto
     - Nome do Projeto: Página de portfólio Pessoal com SEO e CSS Externo
     - Objetivo: Criar uma página de apresentação otimizada para motores de busca, com design moderno utilizando CSS externo, para mostrar habilidades e projetos de forma simples e atraente.
